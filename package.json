@@ -6,6 +6,9 @@
     "dev": "vite",
     "build": "run-p type-check build-only",
     "preview": "vite preview",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
     "test:unit": "vitest --environment jsdom --root src/",
     "test:e2e": "start-server-and-test preview :4173 'cypress run --e2e'",
     "test:e2e:dev": "start-server-and-test 'vite dev --port 4173' :4173 'cypress open --e2e'",
@@ -27,6 +30,7 @@
     "start-server-and-test": "^1.15.2",
     "typescript": "~4.7.4",
     "vite": "^4.0.0",
+    "vitepress": "1.0.0-alpha.47",
     "vitest": "^0.25.6",
     "vue-tsc": "^1.0.12"
   }
