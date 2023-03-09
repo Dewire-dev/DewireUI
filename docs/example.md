@@ -2,6 +2,8 @@
 
 Hi there :wave: This is a demo running VitePress within your **browser tab**!
 
+<MyButton>Button</MyButton>
+
 ## Powered by Vite
 
 VitePress uses Vite under the hood. This means:
